@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(246, 191, 175);
+}
+
+.App {
+  font-family: 'Play', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.NYC {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.containerNYC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placeNYC {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.containerPlace {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 235, 205, 0.754);
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 340px;
+}
+
+.delete {
+  padding: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: rgb(179, 116, 116);
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.deleteAll {
+  width: 100%;
+  padding: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: rgb(163, 28, 28);
+  color: rgba(255, 235, 205, 0.754);
+  border: none;
+  margin-top: 10px;
+}
+
+.container p{
+  font-size: 15px;
+}
+
+
+.containerTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.titleBtn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+
