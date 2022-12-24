@@ -5,26 +5,28 @@ import next from './next.png'
 
 function Title () {
 
-    const [header, setHeader] = useState(0)
-    const { title } = dataTitle[header]
+    const [header, setHeader] = useState(0);
+    let title = dataTitle[header]
+    
+    console.log(title)
 
     const backTitle = () => {
-        setHeader((header => {
-            header --;
-            if(header < 0) {
+        setHeader((title => {
+            title --;
+            if(title < 0) {
                 return dataTitle.length-1
             }
-            return header;
+            return title;
         }))
     }
 
     const nextTitle = () => {
-        setHeader((header => {
-            header ++;
-            if (header > dataTitle.length-1) {
-                header = 0
+        setHeader((title => {
+            title ++;
+            if (title > dataTitle.length-1) {
+                title = 0
             }
-            return header;
+            return title;
         }))
     }
 
