@@ -7,8 +7,7 @@ function Title () {
 
     const [header, setHeader] = useState(0);
     let title = dataTitle[header]
-    
-    console.log(title)
+
 
     const backTitle = () => {
         setHeader((title => {
